@@ -1,10 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
-  margin: 0;
+  margin: 0 auto;
+  width: 64rem;
+
 }
 /* ----------------HEADER ------------------*/
 
@@ -15,8 +13,8 @@ header {
   background-repeat: no-repeat;
   background-origin: border-box;
   background-clip: border-box;
-  width: 100vw;
-  height: 60vh;
+  width: 64rem;
+  height: 48vh;
   position: relative;
   top: 20%;
 }
@@ -34,7 +32,7 @@ header h1 {
   background-color: #550eb7;
   position: absolute;
   bottom: 0rem;
-  width: 100%;
+  width: 64rem;
 }
 
 header nav ul {
@@ -58,8 +56,8 @@ nav li a {
 main h2 {
   text-align: center;
   font-size: 3rem;
-  margin-top: 2.5rem;
-  padding-top: 3rem;
+  /* margin-top: 2.5rem; */
+  /* padding-top: 3rem; */
 }
 
 /* ----------------Section 1 ------------------*/
@@ -79,12 +77,29 @@ main h2 {
   padding-right: 5rem;
 }
 
-.section-who-pagra {
-  column-count: 3;
-  line-height: 1.6rem;
-  background-color: lightgrey;
-  margin-right: 0rem;
-  text-align: justify;
+.section1-content{
+display: flex;
+line-height: 1.8;
+
+}
+
+.section1-content h2{
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.imagen-section1{
+  float:left;
+  margin-right: 5px;
+}
+.left-content{
+  border-right: solid 1px #555557;
+  padding-right: 15px;
+  width: 50%;
+}
+.right-content{
+  width: 50%;
+  padding-left: 15px;
 }
 
 #adv_img {
@@ -120,14 +135,13 @@ h3 {
 }
 
 .porfolio_img {
-  display: block;
-  margin-left: 20rem;
   padding-bottom: 10rem;
+  padding-left:7rem ;
 }
 
 .porfolio img {
-  width: 25%;
-  height: 19rem;
+  width: 30%;
+  height: 10rem;
   margin-right: 0.2rem;
   margin-top: 1rem;
 }
