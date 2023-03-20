@@ -2,7 +2,6 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0 auto;
   width: 64rem;
-
 }
 /* ----------------HEADER ------------------*/
 
@@ -77,27 +76,26 @@ main h2 {
   padding-right: 5rem;
 }
 
-.section1-content{
-display: flex;
-line-height: 1.8;
-
+.section1-content {
+  display: flex;
+  line-height: 1.8;
 }
 
-.section1-content h2{
+.section1-content h2 {
   font-size: 1.5rem;
   text-align: left;
 }
 
-.imagen-section1{
-  float:left;
+.imagen-section1 {
+  float: left;
   margin-right: 5px;
 }
-.left-content{
+.left-content {
   border-right: solid 1px #555557;
   padding-right: 15px;
   width: 50%;
 }
-.right-content{
+.right-content {
   width: 50%;
   padding-left: 15px;
 }
@@ -111,11 +109,87 @@ line-height: 1.8;
 
 /*--------------- Our services -------------*/
 
-h3 {
-  float: left;
+.services {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  grid-gap: 1.5rem;
+  grid-auto-rows: minmax(8rem, auto);
+  margin: 0 auto;
+  width: 900px;
+}
+.services h2 {
+  font-size: 1.5rem;
+  line-height: 1.4rem;
+  text-align: left;
+}
+.services p {
+  line-height: 1.4rem;
 }
 
-/*--------------- Our services -------------*/
+.icon_1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  border: solid grey 1px;
+  bottom: 3rem;
+}
+.services_1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.icon_2 {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  border: solid grey 1px;
+  bottom: 3rem;
+}
+.services_2 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+.icon_3 {
+  grid-column-start: 9;
+  grid-column-end: 9;
+  border: solid grey 1px;
+  bottom: 3rem;
+}
+.services_3 {
+  grid-column-start: 10;
+  grid-column-end: 12;
+}
+
+.icon_4 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  border: solid grey 1px;
+  bottom: 3rem;
+}
+.services_4 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.icon_5 {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  border: solid grey 1px;
+  bottom: 3rem;
+}
+.services_5 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+}
+.icon_6 {
+  grid-column-start: 9;
+  grid-column-end: 9;
+  border: solid grey 1px;
+  bottom: 3rem;
+}
+.services_6 {
+  grid-column-start: 10;
+  grid-column-end: 12;
+}
+
+/*--------------- Porfolio -------------*/
 
 .porfolio {
   background-color: lightgray;
@@ -136,7 +210,7 @@ h3 {
 
 .porfolio_img {
   padding-bottom: 10rem;
-  padding-left:7rem ;
+  padding-left: 7rem;
 }
 
 .porfolio img {
@@ -148,7 +222,7 @@ h3 {
 
 /*--------------- Location -------------*/
 
-.location__items{
+.location__items {
   margin-left: 35%;
 }
 
