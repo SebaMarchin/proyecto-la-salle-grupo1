@@ -8,10 +8,10 @@
     <title>Web</title>
 </head>
 <body>
-    <header>
+    <header role="banner">
         <h1>My Business Webpage</h1>
     </header>
-    <nav class="menu">
+    <nav class="menu" role="navigation">
         <ul>
             <li><a href="#Who">Who We are?</a></li>
             <li><a href="#Services">Services</a></li>
@@ -20,11 +20,11 @@
             <li><a href="#correo">Email Us</a></li>
         </ul>
     </nav>
-    <main>
+    <main role="main">
         <section class="contenido">
             <h2 id="Who">Who we are?</h2>
             <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Mauris convallis magna sit amet diam euismod malesuada.</p>
-            <article id="izquierda">
+            <article id="izquierda" role="article">
                 <h3 class="titulos">Lorem ipsum</h3>
                 <p class="justificado">
                     <img src="img/1.jpg" id="image1" alt="imagen1">
@@ -58,7 +58,7 @@
         </section>
         <section id="box3">
             <h2 id="Services">Our Services</h2>
-            <article id="arriba">
+            <article id="arriba" role="article">
                 <h3 class="serv">Service 1</h3>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure ad impedit quidem tempore ducimus similique assumenda vitae, magni enim ipsum obcaecati, nemo excepturi repudiandae qui ipsam amet culpa ipsa.
                 <h3 class="serv">Service 2</h3>
@@ -66,7 +66,7 @@
                 <h3 class="serv">Service 3</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet unde vitae neque laboriosam ullam minus ut similique odio, sit dolorem dolores sequi inventore nobis provident explicabo molestiae! Repellat, voluptatibus?</p>
             </article>
-            <article id="abajo">
+            <article id="abajo" role="article">
                 <h3 class="serv">Service 4</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id eligendi enim cum officiis earum aspernatur quis, debitis nulla odit distinctio, facilis expedita sit illum ipsa eos dignissimos autem quae quos!</p>
                 <h3 class="serv">Service 5</h3>
@@ -93,7 +93,7 @@
         <section id="direction">
             <h2 id="lugar">Location</h2>
             <p class="center">You can find us</p>
-            <article id="alineado">
+            <article id="alineado" role="article">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.4112550950117!2d2.1278739510966163!3d41.4085905025414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49816c5cc995f%3A0xe6d45d60cbf71998!2sLa%20Salle%20Campus%20Barcelona-URL!5e0!3m2!1ses!2ses!4v1679409709979!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <address class="zona">
                     <h4 class="recta">Head Office</h4>
@@ -110,7 +110,7 @@
         </section>
         <section id="mail">
             <h2 id="correo">Email Us</h2>
-            <form id="formulario">
+            <form id="formulario" role="form">
                 <label for="fname">Name*:</label>
                 <input type="text" id="fname" name="fname" required><br>
                 <label for="email">Email*:</label>
@@ -125,7 +125,7 @@
             </form>
         </section>
     </main>
-    <footer>
+    <footer role="contentinfo">
         &copy; 2016 - <a href="https://www.salleurl.edu/es">LaSalle.</a> All Rights Reserved.
     </footer>
 </body>
