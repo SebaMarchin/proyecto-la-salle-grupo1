@@ -1,0 +1,150 @@
+* {
+    font-family: 'Open Sans';
+    }
+
+
+h1 {
+    color: white;
+    background-image:url(header.jpg);
+    background: size 150px 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #6f4789;
+  overflow: hidden;
+}
+
+li > a{
+  color: white;
+}
+
+li {
+  float: left; 
+}
+
+li {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li > a:hover {
+  background-color: white;
+  color: #6f4789;
+}
+
+
+.Whoweare{
+  background-color: rgb(214, 213, 213);
+}
+#Who {
+  text-align: center;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.left{
+  width: 50%;
+}
+.right{
+  width: 50%;
+}
+
+#Services{
+  text-align: center;
+}
+
+.section2 {
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+}
+
+.section3 {
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+}
+
+i.fa-sharp {
+    font-size: 42px;
+    color: #6f4789;
+    display: inline-block;
+    /*width: 100px;*/
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid grey;
+    transition: all 0.3s ease-in-out; /* transición suave */
+    background-color: white; /* color de fondo inicial */
+    z-index: 1; /* se asegura que el círculo esté por encima del icono */
+    box-sizing: border-box; /* se incluye el borde en el tamaño del elemento */
+  }
+  
+  i.fa-sharp:hover {
+    background-color: #6f4789; /* color de fondo al pasar el ratón */
+    color: white; /* color del icono al pasar el ratón */
+    transform: scale(1.2); /* aumenta el tamaño al pasar el ratón */
+  }
+
+  .section4 {
+    background-color: rgb(214, 213, 213);
+    text-align: center;
+  }
+  .imagenesPort {
+    display: grid;
+    grid-template-columns: 240px 240px 240px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+
+  .section5{
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sectionMap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .map{
+    border-radius: 50%;
+    border: 15px solid rgb(8, 8, 8);
+  }
+  .email{
+    color: white;
+    background-image:url(map-image.png);
+    background-color: #6f4789;
+    background-size: cover;
+  }
+.form{
+  display: grid;
+  grid-template-columns: 100px 300px;
+  grid-gap: 10px;
+  justify-content: center;
+  text-align: left;
+}
+
+#Send{
+  width: 150px;
+}
+
+.footer{
+  text-align: right;
+  background-color: #550c86;
+  color: white;
+}
+.footer > a {
+  color: white;
+}
