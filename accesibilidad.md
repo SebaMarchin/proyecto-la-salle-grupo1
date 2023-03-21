@@ -80,3 +80,4 @@ PDF11: Providing links and link text using the Link annotation and the /Link str
 PDF13: Providing replacement text using the /Alt entry for links in PDF documents
 SL18: Providing Text Equivalent for Nontext Silverlight Controls With AutomationProperties.Name
 
+ok
