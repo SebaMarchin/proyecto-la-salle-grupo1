@@ -72,7 +72,7 @@
               doloribus tempore esse quis nesciunt.
             </p>
 
-            <img id="adv_img" src="/Martin/entregaCSS/img/ad.png" alt="adv" />
+            <img id="adv_img" src="./img/ad.png" alt="adv" />
 
             <h2>Lorem ipsum</h2>
             <p>
@@ -94,11 +94,11 @@
       <article>
         <h2 id="services-title">Our Services</h2>
         <div class="services">
-          <i
-            class="fa-solid fa-cloud fa-4x fa-border-radius: 100% border: 1rem solid;"
-            class="icon_1"
-            style="color: #5b4e88"
-          ></i>
+          <div class="icon-flex">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-cloud fa-4x" style="color: #5b4e88"></i>
+            </div>
+          </div>
           <div class="services_1">
             <h2>Service 1</h2>
             <p>
@@ -106,11 +106,14 @@
               eveniet unde vitae neque laboriosam ullam minus ut similique odio.
             </p>
           </div>
-          <i
-            class="fa-solid fa-code fa-4x fa-border-radius: 100% border: 1rem solid;"
-            class="icon_2"
-            style="color: #5b4e88"
-          ></i>
+          <div class="icon-flex">
+            <div class="icon-wrapper">
+              <i
+                class="fa-solid fa-code fa-4x fa-border-radius: 100% border: 1rem solid;"
+                style="color: #5b4e88"
+              ></i>
+            </div>
+          </div>
           <div class="services_2">
             <h2>Service 2</h2>
             <p>
@@ -118,11 +121,11 @@
               eveniet unde vitae neque laboriosam ullam minus ut similique odio.
             </p>
           </div>
-          <i
-            class="fa-solid fa-rss fa-4x fa-border-radius: 100% border: 1rem solid;"
-            class="icon_3"
-            style="color: #5b4e88"
-          ></i>
+          <div class="icon-flex">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-rss fa-4x" style="color: #5b4e88"></i>
+            </div>
+          </div>
           <div class="services_3">
             <h2>Service 3</h2>
             <p>
@@ -130,11 +133,14 @@
               eveniet unde vitae neque laboriosam ullam minus ut similique odio.
             </p>
           </div>
-          <i
-            class="fa-solid fa-earth-americas fa-4x fa-border-radius: 100% border: 1rem solid;"
-            class="icon_4"
-            style="color: #5b4e88"
-          ></i>
+          <div class="icon-flex">
+            <div class="icon-wrapper">
+              <i
+                class="fa-solid fa-earth-americas fa-4x"
+                style="color: #5b4e88"
+              ></i>
+            </div>
+          </div>
           <div class="services_4">
             <h2>Service 4</h2>
             <p>
@@ -142,11 +148,11 @@
               eveniet unde vitae neque laboriosam ullam minus ut similique odio.
             </p>
           </div>
-          <i
-            class="fa-solid fa-flag fa-4x fa-border-radius: 100% border: 1rem solid;"
-            class="icon_5"
-            style="color: #5b4e88"
-          ></i>
+          <div class="icon-flex">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-flag fa-4x" style="color: #5b4e88"></i>
+            </div>
+          </div>
           <div class="services_5">
             <h2>Service 5</h2>
             <p>
@@ -154,11 +160,14 @@
               eveniet unde vitae neque laboriosam ullam minus ut similique odio.
             </p>
           </div>
-          <i
-            class="fa-sharp fa-solid fa-gear fa-4x fa-border-radius: 100% border: 1rem solid;"
-            class="icon_6"
-            style="color: #5b4e88"
-          ></i>
+          <div class="icon-flex">
+            <div class="icon-wrapper">
+              <i
+                class="fa-sharp fa-solid fa-gear fa-4x"
+                style="color: #5b4e88"
+              ></i>
+            </div>
+          </div>
           <div class="services_6">
             <h2>Service 6</h2>
             <p>
@@ -224,17 +233,45 @@
       </section>
       <section class="contact-form">
         <h2>Email Us</h2>
-        <form>
+        <form class="form">
           <label for="fname">Name*:</label>
-          <input type="text" id="fname" name="fname"   placeholder="Manuel Perez" required/><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Manuel Perez"
+            required
+          /><br />
           <label for="email">Email*:</label>
-          <input type="email" id="email" name="email" placeholder="manuelperez@gmail.com" required /><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="manuelperez@gmail.com"
+            required
+          /><br />
           <label for="tel">Phone:</label>
-          <input type="tel" id="tel" name="tel" placeholder="+34 606 060 060"/><br />
+          <input
+            type="tel"
+            id="tel"
+            name="tel"
+            placeholder="+34 606 060 060"
+          /><br />
           <label for="company">Company Name:</label>
-          <input type="text" id="company" name="company"  placeholder="Company"/><br />
+          <input
+            type="text"
+            id="company"
+            name="company"
+            placeholder="Company"
+          /><br />
           <label for="subject">Subject*:</label>
-          <input type="text" id="subject" name="subject"  placeholder="Title of the Message, Max 50 characters" required /><br />
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Title of the Message, Max 50 characters"
+            required
+          /><br />
           <label for="message">Message*:</label>
           <textarea
             id="message"
@@ -244,7 +281,7 @@
             required
             placeholder="Your Message... max 500 characters"
           ></textarea>
-          <p>(*)Requiered</p>
+          <p>(*)Required</p>
           <br />
           <input type="submit" value="Send" />
         </form>
